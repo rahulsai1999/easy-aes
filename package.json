@@ -1,6 +1,6 @@
 {
   "name": "easy-aes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "rahulsai23",
   "description": "Easy AES-256 encryption and decryption",
@@ -27,10 +27,6 @@
     "test": "jest --config jestconfig.json --coverage",
     "build": "tsc"
   },
-  "files": [
-    "lib/index.js",
-    "lib/index.d.ts"
-  ],
   "keywords": [
     "aes",
     "encryption",
@@ -39,6 +35,5 @@
     "decrypt",
     "aes-256",
     "aes256"
-  ],
-  "dependencies": {}
+  ]
 }
