@@ -1,6 +1,6 @@
 {
   "name": "easy-aes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "rahulsai23",
   "description": "Easy AES-256 encryption and decryption",
@@ -14,9 +14,6 @@
     "url": "https://github.com/rahulsai1999/easy-aes/issues"
   },
   "homepage": "https://github.com/rahulsai1999/easy-aes/#readme",
-  "dependencies": {
-    "crypto": "^1.0.1"
-  },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
@@ -42,5 +39,6 @@
     "decrypt",
     "aes-256",
     "aes256"
-  ]
+  ],
+  "dependencies": {}
 }
