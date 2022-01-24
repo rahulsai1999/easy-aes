@@ -1,0 +1,10 @@
+# folders
+.github
+src
+coverage
+
+# config files
+tsconfig.json
+tslint.json
+jestconfig.json
+yarn.lock
