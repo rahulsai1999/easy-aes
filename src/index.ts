@@ -5,7 +5,7 @@ import {
   createHash,
 } from "crypto";
 
-export default class EasyAES {
+class EasyAES {
   private IV_LENGTH: number = 16;
   private ENCRYPTION_KEY: Buffer;
 
@@ -37,3 +37,5 @@ export default class EasyAES {
     return decrypted.toString();
   };
 }
+
+export default EasyAES;

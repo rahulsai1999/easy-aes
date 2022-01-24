@@ -4,6 +4,7 @@
     "allowJs": false,
     "declaration": true,
     "removeComments": true,
+    "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
@@ -11,9 +12,9 @@
     "baseUrl": "./",
     "target": "es5",
     "outDir": "dist",
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
-    "types": ["jest", "node"],
+    "types": ["node", "jest"],
     "typeRoots": ["./node_modules/@types/"]
   },
   "include": ["./src/*.ts"]
