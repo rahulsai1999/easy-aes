@@ -4,6 +4,7 @@ src
 coverage
 
 # config files
+babel.config.js
 tsconfig.json
 tslint.json
 jestconfig.json

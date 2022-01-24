@@ -1,11 +1,11 @@
 {
   "name": "easy-aes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "rahulsai23",
   "description": "Easy AES-256 encryption and decryption",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rahulsai1999/easy-aes.git"

@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "baseUrl": "./",
     "target": "es5",
-    "outDir": "lib",
+    "outDir": "dist",
     "module": "commonjs",
     "moduleResolution": "node",
     "types": ["jest", "node"],
