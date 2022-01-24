@@ -31,7 +31,8 @@
     "build": "tsc"
   },
   "files": [
-    "lib/**/*"
+    "lib/index.js",
+    "lib/index.d.ts"
   ],
   "keywords": [
     "aes",
