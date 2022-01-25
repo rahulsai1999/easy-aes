@@ -33,3 +33,11 @@ const aes = new EasyAES("secret-key");
 const encrypted = aes.encrypt("plain-text");
 const decrypted = aes.decrypt(encrypted);
 ```
+
+```js
+const EasyAES = require("easy-aes");
+const aes = new EasyAES("secret-key");
+
+const encrypted = aes.encrypt("plain-text");
+const decrypted = aes.decrypt(encrypted);
+```

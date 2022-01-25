@@ -1,6 +1,6 @@
 {
   "name": "easy-aes",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
   "author": "rahulsai23",
   "description": "Easy AES-256 encryption and decryption",
