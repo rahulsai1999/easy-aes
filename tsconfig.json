@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "strict": true,
-    "allowJs": false,
+    "allowJs": true,
     "declaration": true,
     "removeComments": true,
     "esModuleInterop": true,
