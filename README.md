@@ -41,3 +41,9 @@ const aes = new EasyAES("secret-key");
 const encrypted = aes.encrypt("plain-text");
 const decrypted = aes.decrypt(encrypted);
 ```
+
+---
+
+## ES-Module Interop
+
+- If you're using Typescript, and you face the following typeerror: `easy_aes_1.default is not a constructor`, please add the following to your compiler options in tsconfig.json: `"esModuleInterop": true`
